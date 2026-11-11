@@ -1,0 +1,318 @@
+{
+  "version": "0.3.0",
+  "note": "脱敏演示切片：三级题材分类体系（行业 / 赛道 / 核心逻辑）的公开子集。生产系统的完整概念集与原始数据源不在公开范围内。",
+  "industries": [
+    {
+      "id": "tech",
+      "name": "科技",
+      "tracks": [
+        {
+          "id": "tech-ai-compute",
+          "name": "AI 算力",
+          "themes": [
+            {
+              "id": "compute-leasing",
+              "name": "算力租赁",
+              "keywords": ["算力租赁", "智算中心", "算力中心", "算力服务", "算力供给"],
+              "logic": "大模型训练推理需求爆发 → 智算中心供给偏紧 → 机柜与算力服务价格上行"
+            },
+            {
+              "id": "optical-cpo",
+              "name": "光模块与 CPO",
+              "keywords": ["光模块", "CPO", "硅光", "800G", "1.6T", "光引擎"],
+              "logic": "集群带宽升级 → 单卡光模块速率与价值量同步抬升"
+            },
+            {
+              "id": "liquid-cooling",
+              "name": "服务器液冷",
+              "keywords": ["液冷", "冷板", "浸没式", "数据中心散热", "风冷"],
+              "logic": "单机功率密度抬升 → 风冷向液冷切换 → 散热环节价值量上移"
+            },
+            {
+              "id": "domestic-compute-chip",
+              "name": "国产算力芯片",
+              "keywords": ["国产算力", "国产GPU", "算力芯片", "国产芯片", "自主可控算力"],
+              "logic": "自主可控替代 → 国产算力集群落地 → 软硬件适配生态加速"
+            }
+          ]
+        },
+        {
+          "id": "tech-semiconductor",
+          "name": "半导体",
+          "themes": [
+            {
+              "id": "semi-equipment",
+              "name": "半导体设备",
+              "keywords": ["半导体设备", "光刻机", "刻蚀机", "薄膜沉积", "晶圆厂扩产"],
+              "logic": "晶圆厂扩产 → 设备招标量上行 → 国产化率提升"
+            },
+            {
+              "id": "advanced-packaging",
+              "name": "先进封装",
+              "keywords": ["先进封装", "CoWoS", "封测", "Chiplet", "先进封装产能"],
+              "logic": "算力芯片堆叠需求 → 先进封装产能紧张 → 封测环节价值量提升"
+            },
+            {
+              "id": "memory-cycle",
+              "name": "存储周期",
+              "keywords": ["存储芯片", "DRAM", "NAND", "存储涨价", "存储价格"],
+              "logic": "原厂减产 + AI 需求挤占产能 → 存储价格周期上行"
+            }
+          ]
+        },
+        {
+          "id": "tech-consumer",
+          "name": "消费电子",
+          "themes": [
+            {
+              "id": "ai-device",
+              "name": "AI 终端",
+              "keywords": ["AI手机", "AI眼镜", "智能眼镜", "AI终端", "端侧大模型"],
+              "logic": "端侧模型落地 → 换机周期启动 → 整机 ASP 抬升"
+            },
+            {
+              "id": "foldable",
+              "name": "折叠屏",
+              "keywords": ["折叠屏", "铰链", "折叠形态"],
+              "logic": "形态创新 + 成本下探 → 渗透率提升"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newenergy",
+      "name": "新能源",
+      "tracks": [
+        {
+          "id": "ne-power-equipment",
+          "name": "电力设备",
+          "themes": [
+            {
+              "id": "solid-state-battery",
+              "name": "固态电池",
+              "keywords": ["固态电池", "半固态", "硫化物电解质", "硫化物"],
+              "logic": "能量密度逼近天花板 → 半固态先量产 → 全固态产业化提速"
+            },
+            {
+              "id": "energy-storage",
+              "name": "储能",
+              "keywords": ["储能", "构网型", "独立储能", "新型储能", "储能招标"],
+              "logic": "新能源配储政策 + 电网调峰需求 → 招标量高增"
+            },
+            {
+              "id": "photovoltaic",
+              "name": "光伏",
+              "keywords": ["光伏", "硅料", "组件", "硅片", "电池片"],
+              "logic": "产能出清 + 落后产能退出 → 供需再平衡 → 价格修复"
+            },
+            {
+              "id": "wind-power",
+              "name": "风电",
+              "keywords": ["海上风电", "风电", "塔筒", "海风"],
+              "logic": "审批节奏改善 + 海风经济性上行 → 招标量回升"
+            }
+          ]
+        },
+        {
+          "id": "ne-vehicle",
+          "name": "智能汽车与机器人",
+          "themes": [
+            {
+              "id": "intelligent-driving",
+              "name": "智能驾驶",
+              "keywords": ["智驾", "城市NOA", "端到端", "智能驾驶", "自动驾驶"],
+              "logic": "渗透率提升 + 方案下沉 → 单车价值量上行"
+            },
+            {
+              "id": "humanoid-robot",
+              "name": "人形机器人",
+              "keywords": ["人形机器人", "具身智能", "灵巧手", "行星滚柱丝杠", "丝杠"],
+              "logic": "量产节点临近 → 零部件定点落地 → 供应链订单兑现"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharma",
+      "name": "医药",
+      "tracks": [
+        {
+          "id": "pharma-innovative",
+          "name": "创新药",
+          "themes": [
+            {
+              "id": "glp1",
+              "name": "减肥药",
+              "keywords": ["减肥药", "GLP-1", "多肽", "司美格鲁肽", "替尔泊肽"],
+              "logic": "适应症扩容 + 产能释放 → 原料药与 CDMO 订单兑现"
+            },
+            {
+              "id": "license-out",
+              "name": "创新药出海",
+              "keywords": ["创新药", "License-out", "对外授权", "BD交易", "首付款"],
+              "logic": "国内管线被海外授权 → 首付款与里程碑兑现"
+            },
+            {
+              "id": "cxo",
+              "name": "CXO",
+              "keywords": ["CRO", "CDMO", "医药外包", "在手订单"],
+              "logic": "投融资回暖 + 订单周期见底 → 在手订单回升"
+            }
+          ]
+        },
+        {
+          "id": "pharma-device",
+          "name": "医疗器械",
+          "themes": [
+            {
+              "id": "medical-device-export",
+              "name": "医疗设备与出海",
+              "keywords": ["医疗设备", "医疗器械", "设备更新", "集采"],
+              "logic": "设备更新政策 + 出口份额提升 → 收入结构改善"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "金融",
+      "tracks": [
+        {
+          "id": "finance-securities",
+          "name": "证券与金融科技",
+          "themes": [
+            {
+              "id": "broker-merger",
+              "name": "券商并购",
+              "keywords": ["券商", "并购重组", "合并", "牌照"],
+              "logic": "行业集中度提升 → 头部券商弹性放大"
+            },
+            {
+              "id": "fintech",
+              "name": "金融科技",
+              "keywords": ["金融科技", "数字货币", "稳定币", "数字人民币"],
+              "logic": "监管框架落地 → 业务边界打开 → 牌照价值重估"
+            }
+          ]
+        },
+        {
+          "id": "finance-insurance",
+          "name": "保险",
+          "themes": [
+            {
+              "id": "insurance-liability",
+              "name": "保险负债成本",
+              "keywords": ["保险", "预定利率", "负债成本", "利差损"],
+              "logic": "预定利率下调 → 负债成本下行 → 利差损压力缓解"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cyclical",
+      "name": "周期",
+      "tracks": [
+        {
+          "id": "cyc-metals",
+          "name": "有色金属",
+          "themes": [
+            {
+              "id": "copper-gold",
+              "name": "铜金",
+              "keywords": ["铜价", "金价", "黄金", "铜", "美元指数"],
+              "logic": "供给刚性 + 美元走弱 → 价格中枢抬升"
+            },
+            {
+              "id": "rare-earth",
+              "name": "稀土",
+              "keywords": ["稀土", "镨钕", "出口管制", "配额", "战略金属"],
+              "logic": "供给侧管控 → 配额收紧 → 战略品种溢价"
+            }
+          ]
+        },
+        {
+          "id": "cyc-chemical",
+          "name": "化工",
+          "themes": [
+            {
+              "id": "fluorochem",
+              "name": "氟化工",
+              "keywords": ["制冷剂", "氟化工", "R22", "配额"],
+              "logic": "配额政策 + 需求刚性 → 价格中枢上移"
+            },
+            {
+              "id": "phosphor-chem",
+              "name": "磷化工",
+              "keywords": ["磷化工", "磷酸铁锂", "黄磷", "磷矿"],
+              "logic": "资源属性 + 新能源需求 → 景气底部回升"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consumer",
+      "name": "消费",
+      "tracks": [
+        {
+          "id": "cons-food-beverage",
+          "name": "食品饮料",
+          "themes": [
+            {
+              "id": "baijiu",
+              "name": "白酒",
+              "keywords": ["白酒", "批价", "库存周期", "飞天"],
+              "logic": "需求弱复苏 + 库存周期见底 → 批价企稳"
+            }
+          ]
+        },
+        {
+          "id": "cons-home",
+          "name": "家电与零售",
+          "themes": [
+            {
+              "id": "trade-in",
+              "name": "以旧换新",
+              "keywords": ["以旧换新", "家电补贴", "国补", "家电"],
+              "logic": "政策补贴 → 需求前置 → 出货量高增"
+            },
+            {
+              "id": "duty-free",
+              "name": "免税",
+              "keywords": ["免税", "离岛免税", "客流"],
+              "logic": "客流恢复 + 客单价提升 → 销售弹性释放"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theme",
+      "name": "政策主题",
+      "tracks": [
+        {
+          "id": "theme-policy",
+          "name": "政策与制度",
+          "themes": [
+            {
+              "id": "data-economy",
+              "name": "数据要素",
+              "keywords": ["数据要素", "数据资产", "数字经济", "数据确权"],
+              "logic": "数据资产化落地 → 确权与交易制度完善 → 存量价值重估"
+            },
+            {
+              "id": "low-altitude",
+              "name": "低空经济",
+              "keywords": ["低空经济", "eVTOL", "无人机", "空域"],
+              "logic": "空域放开试点 → 基础设施先行 → 产业链订单落地"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

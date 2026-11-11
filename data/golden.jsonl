@@ -1,0 +1,99 @@
+{"text": "智算中心建设提速，多地算力租赁签约落地", "label": "compute-leasing", "split": "train"}
+{"text": "算力供给紧张，智算中心上架率持续走高", "label": "compute-leasing", "split": "test"}
+{"text": "公司拟投建算力中心，向外提供算力服务", "label": "compute-leasing", "split": "train"}
+{"text": "800G 光模块供不应求，1.6T 产品进入验证", "label": "optical-cpo", "split": "train"}
+{"text": "硅光方案加速导入，硅光模块在算力集群中渗透", "label": "optical-cpo", "split": "test"}
+{"text": "CPO 共封装光学有望进入规模量产阶段", "label": "optical-cpo", "split": "train"}
+{"text": "数据中心散热升级，液冷方案在机柜中加速渗透", "label": "liquid-cooling", "split": "train"}
+{"text": "冷板式液冷成为高功率密度服务器主流选择", "label": "liquid-cooling", "split": "test"}
+{"text": "浸没式液冷方案落地，超算中心风冷改造启动", "label": "liquid-cooling", "split": "train"}
+{"text": "国产算力芯片适配进度加快，自主可控算力集群落地", "label": "domestic-compute-chip", "split": "train"}
+{"text": "国产GPU生态建设推进，算力芯片国产替代提速", "label": "domestic-compute-chip", "split": "test"}
+{"text": "晶圆厂扩产带动半导体设备招标量上行", "label": "semi-equipment", "split": "train"}
+{"text": "光刻机与刻蚀机验证推进，设备国产化率提升", "label": "semi-equipment", "split": "test"}
+{"text": "先进封装产能紧张，CoWoS 扩产计划落地", "label": "advanced-packaging", "split": "train"}
+{"text": "Chiplet 工艺推进，封测环节先进封装产能扩充", "label": "advanced-packaging", "split": "test"}
+{"text": "存储价格上行，DRAM 合约价连续上调", "label": "memory-cycle", "split": "train"}
+{"text": "NAND 供给收缩，存储芯片价格进入上行周期", "label": "memory-cycle", "split": "test"}
+{"text": "端侧大模型落地推动 AI 手机换机周期启动", "label": "ai-device", "split": "train"}
+{"text": "AI 眼镜出货放量，AI 终端成为消费电子新主线", "label": "ai-device", "split": "test"}
+{"text": "折叠屏成本下探，折叠形态渗透率提升", "label": "foldable", "split": "train"}
+{"text": "铰链良率改善，折叠屏发布节奏加快", "label": "foldable", "split": "test"}
+{"text": "半固态电池装车，固态电池产业化进程提速", "label": "solid-state-battery", "split": "train"}
+{"text": "硫化物电解质中试线落地，全固态路线获验证", "label": "solid-state-battery", "split": "test"}
+{"text": "独立储能招标量高增，构网型储能渗透提升", "label": "energy-storage", "split": "train"}
+{"text": "新型储能装机加速，储能系统价格触底回升", "label": "energy-storage", "split": "test"}
+{"text": "光伏组件价格企稳，硅料库存去化接近尾声", "label": "photovoltaic", "split": "train"}
+{"text": "硅片产能出清，电池片价格修复", "label": "photovoltaic", "split": "test"}
+{"text": "海上风电项目加速核准，塔筒订单排产饱满", "label": "wind-power", "split": "train"}
+{"text": "风电招标节奏改善，海风大基地开工", "label": "wind-power", "split": "test"}
+{"text": "城市 NOA 加速落地，端到端智驾方案上车", "label": "intelligent-driving", "split": "train"}
+{"text": "智能驾驶渗透率提升，方案下沉至主流价位", "label": "intelligent-driving", "split": "test"}
+{"text": "人形机器人量产节点临近，灵巧手定点落地", "label": "humanoid-robot", "split": "train"}
+{"text": "具身智能融资升温，行星滚柱丝杠产能爬坡", "label": "humanoid-robot", "split": "test"}
+{"text": "GLP-1 减肥药适应症扩容，多肽原料药产能释放", "label": "glp1", "split": "train"}
+{"text": "司美格鲁肽减重适应症获批，替尔泊肽放量", "label": "glp1", "split": "test"}
+{"text": "创新药 License-out 交易刷新，首付款创新高", "label": "license-out", "split": "train"}
+{"text": "国产创新药对外授权，BD 交易落地兑现里程碑", "label": "license-out", "split": "test"}
+{"text": "CXO 在手订单回升，CDMO 排产改善", "label": "cxo", "split": "train"}
+{"text": "医药外包投融资回暖，CRO 订单周期见底", "label": "cxo", "split": "test"}
+{"text": "医疗设备更新政策落地，医疗器械出口份额提升", "label": "medical-device-export", "split": "train"}
+{"text": "集采影响出清，医疗设备招标恢复", "label": "medical-device-export", "split": "test"}
+{"text": "券商并购重组提速，行业集中度提升", "label": "broker-merger", "split": "train"}
+{"text": "两家券商合并，牌照整合预期升温", "label": "broker-merger", "split": "test"}
+{"text": "稳定币监管框架落地，金融科技业务边界打开", "label": "fintech", "split": "train"}
+{"text": "数字人民币推广加速，金融科技板块受益", "label": "fintech", "split": "test"}
+{"text": "预定利率下调，保险负债成本下行缓解利差损", "label": "insurance-liability", "split": "train"}
+{"text": "保险产品预定利率调整，负债成本压力缓解", "label": "insurance-liability", "split": "test"}
+{"text": "美元指数走弱，金价与铜价中枢同步抬升", "label": "copper-gold", "split": "train"}
+{"text": "黄金价格创新高，铜供需偏紧支撑价格", "label": "copper-gold", "split": "test"}
+{"text": "稀土出口管制落地，镨钕价格上行", "label": "rare-earth", "split": "train"}
+{"text": "稀土配额收紧，战略金属溢价扩大", "label": "rare-earth", "split": "test"}
+{"text": "制冷剂配额政策收紧，氟化工价格中枢上移", "label": "fluorochem", "split": "train"}
+{"text": "R22 配额管理趋严，制冷剂景气上行", "label": "fluorochem", "split": "test"}
+{"text": "磷矿价格企稳，磷化工景气底部回升", "label": "phosphor-chem", "split": "train"}
+{"text": "磷酸铁锂需求向好，黄磷与磷化工价格修复", "label": "phosphor-chem", "split": "test"}
+{"text": "白酒批价企稳，库存周期接近底部", "label": "baijiu", "split": "train"}
+{"text": "飞天批价回升，白酒动销改善", "label": "baijiu", "split": "test"}
+{"text": "家电以旧换新补贴加力，国补带动出货量高增", "label": "trade-in", "split": "train"}
+{"text": "以旧换新政策延续，家电内销数据超预期", "label": "trade-in", "split": "test"}
+{"text": "离岛免税客流恢复，免税销售弹性释放", "label": "duty-free", "split": "train"}
+{"text": "免税客流回升，客单价提升", "label": "duty-free", "split": "test"}
+{"text": "数据资产入表推进，数据要素确权制度完善", "label": "data-economy", "split": "train"}
+{"text": "数据要素市场化交易提速，数字经济估值重塑", "label": "data-economy", "split": "test"}
+{"text": "低空经济试点扩容，eVTOL 空域开放推进", "label": "low-altitude", "split": "train"}
+{"text": "无人机产业链订单落地，低空基础设施先行", "label": "low-altitude", "split": "test"}
+{"text": "智算中心与光模块需求同步升温", "label": "compute-leasing", "split": "train"}
+{"text": "数据中心液冷改造带动智算中心建设", "label": "compute-leasing", "split": "train"}
+{"text": "白酒批价企稳，铜价同步走强", "label": "copper-gold", "split": "train"}
+{"text": "创新药出海与CXO订单同步回暖", "label": "license-out", "split": "train"}
+{"text": "券商并购预期升温，数字人民币试点扩大", "label": "fintech", "split": "train"}
+{"text": "固态电池中试线与储能招标同步推进", "label": "solid-state-battery", "split": "train"}
+{"text": "人形机器人量产与智能驾驶上车同步推进", "label": "intelligent-driving", "split": "train"}
+{"text": "智算中心上架率提升，光模块同步放量", "label": "compute-leasing", "split": "test"}
+{"text": "创新药对外授权落地，CXO在手订单回暖", "label": "license-out", "split": "test"}
+{"text": "公司发布年度股东大会通知", "label": null, "split": "test"}
+{"text": "今日天气晴朗，适合出门散步", "label": null, "split": "test"}
+{"text": "我们需要重新评估一下季度目标", "label": null, "split": "test"}
+{"text": "他最近在读一本关于城市规划的书", "label": null, "split": "test"}
+{"text": "会议纪要：讨论了下周排期与人力安排", "label": null, "split": "test"}
+{"text": "这家餐厅的招牌菜味道不错", "label": null, "split": "test"}
+{"text": "他说这周末打算去看一场电影", "label": null, "split": "test"}
+{"text": "公司完成工商变更登记，注册资本调整", "label": null, "split": "test"}
+{"text": "知乎上关于时间管理的讨论很热闹", "label": null, "split": "test"}
+{"text": "系统提示：请稍后重试", "label": null, "split": "test"}
+{"text": "研究员今天去参加了行业峰会的圆桌讨论", "label": null, "split": "test"}
+{"text": "记得明天带上那份纸质材料", "label": null, "split": "test"}
+{"text": "网传某地出现大面积停电", "label": null, "split": "test"}
+{"text": "这份合同需要双方签字盖章", "label": null, "split": "test"}
+{"text": "我和朋友约好一起去爬山", "label": null, "split": "test"}
+{"text": "运营商发布最新资费调整方案", "label": null, "split": "test"}
+{"text": "关于个人职业规划的随笔", "label": null, "split": "test"}
+{"text": "据说某球队昨晚赢了比赛", "label": null, "split": "test"}
+{"text": "项目组完成了本周的迭代发布", "label": null, "split": "test"}
+{"text": "客服反馈有一批订单物流延迟", "label": null, "split": "test"}
+{"text": "他在朋友圈发了一张旅行照片", "label": null, "split": "test"}
+{"text": "今天的成交量比昨天略有放大", "label": null, "split": "test"}
+{"text": "员工手册更新了考勤相关条款", "label": null, "split": "test"}
+{"text": "我们决定先观察一个季度再决定", "label": null, "split": "test"}
+{"text": "这份材料还缺少两个数据来源", "label": null, "split": "test"}
